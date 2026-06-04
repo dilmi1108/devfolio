@@ -1,4 +1,4 @@
-# Portfolio
+# devfolio
 
 A modern personal portfolio built with React and Vite. This site showcases professional experience, featured projects, technical skills, certifications, and contact details for Dilmi Sooriyaarachchi.
 
