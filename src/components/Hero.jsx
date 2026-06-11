@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaEnvelope, FaChevronDown } from 'react-icons/fa';
 import { personalInfo } from '../data/profileData';
-import profileImg from '../assets/profile.png';
+import profileImg from '../assets/profile.jpeg';
+
+
 
 const Hero = () => {
   const [roleIndex, setRoleIndex] = useState(0);

@@ -12,7 +12,6 @@ import Skills from './components/Skills';
 import Services from './components/Services';
 import FeaturedProjects from './components/FeaturedProjects';
 import Projects from './components/Projects';
-import GithubStats from './components/GithubStats';
 import Experience from './components/Experience';
 import Achievements from './components/Achievements';
 import Certifications from './components/Certifications';
@@ -54,7 +53,6 @@ function MainApp() {
             <Services />
             <FeaturedProjects />
             <Projects />
-            <GithubStats />
             <Experience />
             <Achievements />
             <Certifications />

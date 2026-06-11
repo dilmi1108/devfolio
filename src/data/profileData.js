@@ -88,8 +88,8 @@ export const personalInfo = {
   certifications: [
     {
       id: "cert-1",
-      title: "Software Testing Foundation Course",
-      issuer: "Coursera / Udemy",
+      title: "Selenium WebDriver & TestNG Automation",
+      issuer: "Institute of Developer Stack",
       date: "2025",
       icon: "FaGraduationCap"
     },
@@ -109,8 +109,8 @@ export const personalInfo = {
     },
     {
       id: "cert-4",
-      title: "Selenium WebDriver & TestNG Automation",
-      issuer: "Udemy",
+      title: "Python Programming ",
+      issuer: "Open UOM",
       date: "2025",
       icon: "FaBug"
     },

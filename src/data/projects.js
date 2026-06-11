@@ -1,49 +1,51 @@
 // Projects Data for Dilmi Sooriyaarachchi
+import SGPAOSImage from "../assets/SGPAOS.jpg";
+import CoffeeShopImage from "../assets/coffeeweb.png";
 
 export const projectsData = [
   {
-    id: 1,
-    title: "Student Productivity App",
-    description: "A comprehensive dashboard for students to manage tasks, track deadlines, set Pomodoro timers, and take rich notes with full local persistence.",
-    category: "Web Development",
-    techStack: ["React.js", "Tailwind CSS", "Framer Motion", "LocalStorage"],
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/dilmi-sooriyaarachchi/student-productivity-app",
-    demo: "https://student-productivity-app.example.com",
+    id: 4,
+    title: "Coffee Shop App",
+    description: "A modern full-stack e-commerce application for an online coffee shop built with React, Spring Boot, and MySQL. Featuring user authentication, product browsing, shopping cart management, secure checkout, order tracking, customer reviews, and an admin dashboard for efficient store management.",
+    category: "Full Stack",
+    techStack: ["React.js", "Tailwind CSS", "Springboot", "MySQL", "REST API"],
+    image: CoffeeShopImage,
+    github: "https://github.com/dilmi1108/coffee-app.git",
+    demo: "https://coffee-shop-app.example.com",
     featured: true
   },
   {
     id: 2,
     title: "Clothing E-Commerce Website",
     description: "An elegant retail storefront featuring a responsive product grid, visual inventory filtering, shopping cart persistence, and modular checkout states.",
-    category: "Full Stack",
-    techStack: ["React.js", "Spring Boot", "MySQL", "Tailwind CSS", "REST API"],
+    category: "Web Development",
+    techStack: ["React.js", "Tailwind CSS", "REST API"],
     image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/dilmi-sooriyaarachchi/clothing-ecommerce",
+    github: "https://github.com/dilmi1108/stylehub-clothingapp.git",
     demo: "https://clothing-ecommerce.example.com",
-    featured: true
+    featured: false
   },
   {
     id: 3,
     title: "Conference Day Management System",
     description: "Enterprise event manager facilitating session scheduling, speaker slot reservations, visual room bookings, and real-time email reminders.",
-    category: "Full Stack",
-    techStack: ["Angular", "Spring Boot", "PostgreSQL", "REST APIs", "Docker"],
+    category: "Web Development",
+    techStack: ["Html", "CSS", "JavaScript", "PHP", "MySQL"],
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80",
     github: "https://github.com/dilmi-sooriyaarachchi/conference-management",
     demo: "https://conference-management.example.com",
-    featured: true
+    featured: false
   },
   {
-    id: 4,
-    title: "Travel Buddy App",
-    description: "A collaborative itinerary builder connecting travellers, suggesting local sightseeing spots, calculating shared expenses, and integration with Map APIs.",
-    category: "Web Development",
-    techStack: ["React.js", "CSS3", "JavaScript", "Leaflet Maps", "Node.js"],
-    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/dilmi-sooriyaarachchi/travel-buddy",
+    id: 1,
+    title: "Smart Garment Production Tracking & Optimization System",
+    description: "A final year group project focused on designing, developing, and testing modern software applications. The project covers full stack development, manual testing, API testing, and performance testing to ensure functionality, reliability, and high quality user experiences.",
+    category: "Web Development + QA Projects",
+    techStack: ["React.js", "Tailwind CSS", "JWT", "Springboot", "MongoDB"],
+    image: SGPAOSImage,
+    github: "https://github.com/SasinduV0/SGPTOS-FinalProject.git",
     demo: "https://travel-buddy.example.com",
-    featured: false
+    featured: true
   },
   {
     id: 5,
@@ -60,12 +62,12 @@ export const projectsData = [
     id: 6,
     title: "Salon Management System",
     description: "Web application for beauty salons to handle appointment scheduling, staff assignment, service catalog management, and billing invoicing.",
-    category: "Web Development",
-    techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "Bootstrap"],
+    category: "Full stack",
+    techStack: [ "MySQL", "Next.js" ,"Tailwind CSS" , "Springboot"],
     image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/dilmi-sooriyaarachchi/salon-management",
+    github: "https://github.com/dilmi1108/SalonManagementSystem.git",
     demo: "https://salon-management.example.com",
-    featured: false
+    featured: true
   },
   {
     id: 7,
@@ -74,18 +76,18 @@ export const projectsData = [
     category: "QA Projects",
     techStack: ["Java", "Selenium WebDriver", "TestNG", "Maven", "Page Object Model"],
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/dilmi-sooriyaarachchi/qa-automation-framework",
+    github: "https://github.com/dilmi1108/SwagLabs_Automation_Project.git",
     demo: "https://github.com/dilmi-sooriyaarachchi/qa-automation-framework",
     featured: false
   },
   {
     id: 8,
-    title: "Web Load & Stress Testing Project",
+    title: "StudentRegistrationForm",
     description: "Performance benchmarking of Web REST APIs, configuring concurrent threads in JMeter to test latency under high user traffic conditions.",
     category: "QA Projects",
-    techStack: ["Apache JMeter", "Load Testing", "Stress Testing", "HTML Reporting"],
+    techStack: ["Java", "Selenium WebDriver", "TestNG", "Maven", "HTML Reporting"],
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
-    github: "https://github.com/dilmi-sooriyaarachchi/jmeter-performance-testing",
+    github: "https://github.com/dilmi1108/StudentRegistrationForm.git",
     demo: "https://github.com/dilmi-sooriyaarachchi/jmeter-performance-testing",
     featured: false
   }
